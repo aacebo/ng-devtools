@@ -54,7 +54,10 @@
               "src/favicon.ico",
               "src/assets",
               "src/manifest.json",
-              "src/devtools"
+              "src/background.js",
+              "src/content.js",
+              "src/devtools.html",
+              "src/devtools.js"
             ],
             "styles": [
               "src/styles.scss"

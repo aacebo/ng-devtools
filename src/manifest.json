@@ -2,17 +2,12 @@
   "manifest_version": 2,
   "name": "Angular Devtools",
   "description": "Angular Devtools",
-  "version": "1.0.0",
-  "devtools_page": "devtools/devtools.html",
-  "permissions": ["tabs"],
-  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
-  "browser_action": {
-    "default_icon": "favicon.ico",
-    "default_popup": "index.html"
-  },
-  "web_accessible_resources": [
-    "assets/css/*",
-    "assets/js/*",
-    "assets/fonts/*"
+  "version": "0.0.1",
+  "author": "aacebo",
+  "devtools_page": "devtools.html",
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "*://*/*"
   ]
 }
